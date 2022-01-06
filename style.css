@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(112, 253, 131);
+}
+.portofolio-card, .service-card, .blog-card, footer i{
+    transition: all 0.5s ease-out;
+}
+.portofolio-card:hover, .service-card:hover, .blog-card:hover, footer i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+footer{
+    background: #fff;
+}
