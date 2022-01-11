@@ -262,21 +262,21 @@
                     <form name ="contact" method="POST" data-netlify="true" class="text-muted">
                         <div class="form-group">
                             <label for="fname">Nama Depan</label>
-                            <input type="text" class="form-control" id="fname">
+                            <input type="text" name="name" class="form-control" id="fname">
                         </div>
                         <div class="form-group">
                             <label for="lname">Nama Belakang</label>
-                            <input type="text" class="form-control" id="lname">
+                            <input type="text" name="lname" class="form-control" id="lname">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="text" class="form-control" id="email">
+                            <input type="text" name="email" class="form-control" id="email">
                         </div>
                         <div class="form-group">
                             <label for="message">Pesan</label>
-                            <textarea name="text" id="textarea" cols="30" rows="5" class="form-control"></textarea>
+                            <textarea name="message" id="textarea" cols="30" rows="5" class="form-control"></textarea>
                         </div>
-                        <button class="btn btn-success mt-4 btn-black">Kirim</button>
+                        <button type="submit" class="btn btn-success mt-4 btn-black">Kirim</button>
                     </form>
                 </div>
             </div>
